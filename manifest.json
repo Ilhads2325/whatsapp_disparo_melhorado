@@ -1,0 +1,19 @@
+{
+  "widget": {
+    "name": "Disparo WhatsApp (Z-API)",
+    "description": "Envie mensagens em lote para leads na etapa 'Disparo'.",
+    "version": "1.0.0",
+    "interface_version": 2,
+    "init": "index.html",
+    "location": "statuses",
+    "status": ["11600036"]
+  },
+  "settings": {
+    "secure": [],
+    "client": []
+  },
+  "installation": {
+    "pages": [],
+    "locations": []
+  }
+}

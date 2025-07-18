@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Disparo de WhatsApp</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 10px; }
+    textarea, input { width: 100%; margin-bottom: 10px; }
+    button { padding: 10px 20px; }
+    .status { margin-top: 15px; font-weight: bold; }
+  </style>
+</head>
+<body>
+  <h3>Selecioner ID de Etapa do Disparo</h3>
+  <textarea id="ID_Seleção" placeholder="Selecioner o ID da Etapa de Disparo "></textarea>
+  <h3>Mensagem Personalizada</h3>
+  <textarea id="mensagem" rows="5" placeholder="Olá {{nome}}, o veículo {{veiculo}} está disponível!"></textarea>
+
+  <label>Data e Hora do Envio:</label>
+  <input type="datetime-local" id="dataHora" />
+
+  <button onclick="iniciarDisparo()">Iniciar Disparo</button>
+
+  <div class="status" id="status">Aguardando início...</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
