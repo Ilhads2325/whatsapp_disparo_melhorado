@@ -13,7 +13,7 @@
     "client": []
   },
   "installation": {
-    "pages": [],
-    "locations": ["lead_card"]
+    "locations": ["lead_card"],
+    "pages": []
   }
 }
