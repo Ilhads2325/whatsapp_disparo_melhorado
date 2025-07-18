@@ -5,15 +5,13 @@
     "version": "1.0.0",
     "interface_version": 2,
     "init": "index.html",
-    "location": "statuses",
-    "status": ["11600036"]
+    "location": "lead_card"
+  },
+  "installation": {
+    "locations": ["lead_card"]
   },
   "settings": {
     "secure": [],
     "client": []
-  },
-  "installation": {
-    "locations": ["lead_card"],
-    "pages": []
   }
 }
